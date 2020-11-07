@@ -16,11 +16,11 @@ Video Link : - https://drive.google.com/drive/folders/10LPz94NpZaFJmfSzA4vKIEgOd
 
 Web Developer Portfolio Website
 
-•	This is a web project of a personal Web development portfolio showing skills and various projects of a web developer.
+•	This is a web project of a personal Web development portfolio showing skills and various projects of a web developer.<br/>
 
 Features of this project: -
-•	Skills of a developer
-•	Projects done by developer
-•	Reviews given by customers
-•	Contact form for hiring
-•	Full responsive website
+•	Skills of a developer <br/>
+•	Projects done by developer<br/>
+•	Reviews given by customers<br/>
+•	Contact form for hiring<br/>
+•	Full responsive website<br/>
