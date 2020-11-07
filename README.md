@@ -18,7 +18,7 @@ Web Developer Portfolio Website
 
 •	This is a web project of a personal Web development portfolio showing skills and various projects of a web developer.<br/>
 
-Features of this project: -
+Features of this project: -<br/>
 •	Skills of a developer <br/>
 •	Projects done by developer<br/>
 •	Reviews given by customers<br/>
