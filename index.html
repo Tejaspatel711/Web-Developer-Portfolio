@@ -14,8 +14,8 @@
     <!-- Standard -->
     <link rel="shortcut icon" href="img/logo-sticky.png">
     
-
-    <!-- ********** Resources CSS ********** -->
+    <!-- ============== Angular Js ============== -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
 
     <!-- ============== Bootstrap v4.2.1 ============== -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -34,7 +34,7 @@
 
 </head>
 
-<body id="to_top">
+<body id="to_top" ng-app="">
 
     <!-- Preloader -->
     <div id="loader-wrapper">
@@ -476,25 +476,29 @@
                     <div class="col-lg-7 col-md-7 align-self-center">
 
                         <h2 class="section-title color-3 mb-40"><span>Get</span> in touch</h2>
-                        <form id="contact_form" action="#">
+                        <form id="contact_form" name="contact_form" action="#">
 
                             <div id="msg" class="message"></div>
 
                             <div class="form-row">
                                 <div class="col-md-6">
-                                    <input type="text" name="name" id="name" placeholder="Name*">
+                                    <input type="text" name="name" id="name" placeholder="Name" ng-model="name" required="">
+                                    <span ng-show="contact_form.name.$touched && contact_form.name.$invalid">The name is required.</span>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                                    <input type="text" name="phone" id="phone" placeholder="Phone Number" ng-model="phone" required="">
+                                    <span ng-show="contact_form.phone.$touched && contact_form.phone.$invalid">Phone Number is required.</span>
                                 </div>
                             </div>
 
                             <div class="form-row">
                                 <div class="col-md-6">
-                                    <input type="email" id="email" name="mail" placeholder="E-mail Address*">
+                                    <input type="email" id="email" name="mail" placeholder="E-mail Address" ng-model="mail" required="">
+                                    <span ng-show="contact_form.mail.$touched && contact_form.mail.$invalid">Email is required.</span>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                                    <input type="text" name="subject" id="subject" placeholder="Subject" ng-model="subject" required="">
+                                    <span ng-show="contact_form.subject.$touched && contact_form.subject.$invalid">The subject is required.</span>
                                 </div>
                             </div>
 
@@ -548,6 +552,8 @@
         </div>
 
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
     <script src="js/jquery-3.1.1.min.js"></script>
 
