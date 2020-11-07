@@ -11,7 +11,7 @@ Dependencies
 
 Links:<br/>
 - [Github Link](https://github.com/Tejaspatel711/Web-Developer-Portfolio) <br/>
-- [Live Project](https://eloquent-ride-96fe0e.netlify.app/) <br/>
+- [Live Project](https://tejas-patel.netlify.app/) <br/>
 - [Video Link](https://drive.google.com/drive/folders/10LPz94NpZaFJmfSzA4vKIEgOdogKbz97?usp=sharing) <br/>
 
 
