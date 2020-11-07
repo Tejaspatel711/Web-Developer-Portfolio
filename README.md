@@ -6,6 +6,7 @@ A Personal Portfolio Site!!!
 Dependencies
 
 - [Jquery](https://code.jquery.com/jquery-3.2.1.min.js) <br/>
+- [AngularJs](https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js)<br/>
 - [Bootstrap 4](https://getbootstrap.com/) <br/>
 - [UI Patterns](http://ui-patterns.com) <br/>
 
