@@ -9,9 +9,9 @@ Dependencies
 - [Bootstrap 4](https://getbootstrap.com/) <br/>
 - [UI Patterns](http://ui-patterns.com) <br/>
 
-Github Link: - https://github.com/Tejaspatel711/Web-Developer-Portfolio <br/>
-Live Project: - https://eloquent-ride-96fe0e.netlify.app/ <br/>
-Video Link : - https://drive.google.com/drive/folders/10LPz94NpZaFJmfSzA4vKIEgOdogKbz97?usp=sharing <br/>
+- [Github Link](https://github.com/Tejaspatel711/Web-Developer-Portfolio) <br/>
+- [Live Project](https://eloquent-ride-96fe0e.netlify.app/) <br/>
+- [Video Link](https://drive.google.com/drive/folders/10LPz94NpZaFJmfSzA4vKIEgOdogKbz97?usp=sharing) <br/>
 
 
 Web Developer Portfolio Website
